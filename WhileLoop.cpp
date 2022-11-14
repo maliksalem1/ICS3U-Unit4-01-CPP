@@ -7,10 +7,10 @@
 #include <iostream>
 #include <string>
 
-int positiveInteger;
-int loopCounter = 0;
-int addInt = 0;
-std::string positiveString;
+    int positiveInteger;
+    int loopCounter = 0;
+    int addInt = 0;
+    std::string positiveString;
 
 int main() {
     // This function adds all the whole numbers up to the inputted number
@@ -30,7 +30,7 @@ int main() {
                 addInt = addInt + loopCounter;
                 if (loopCounter >= positiveInteger)
                     std::cout << "The sum of all positive numbers from 1 to "
-                              << positiveInteger << " is " << addInt << std::endl;
+                            << positiveInteger << " is " << addInt << std::endl;
             }
         } else {
             std::cout << "" << positiveString
